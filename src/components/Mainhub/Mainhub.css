@@ -1,0 +1,10 @@
+.Mainhub{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title{
+    margin-bottom: 30px;
+    margin-top: 80px;
+}

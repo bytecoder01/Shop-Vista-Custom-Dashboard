@@ -1,0 +1,11 @@
+.Panels{
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
+.parent{
+width: 100%;
+}

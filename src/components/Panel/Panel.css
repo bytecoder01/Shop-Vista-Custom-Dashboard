@@ -1,0 +1,114 @@
+.CompactCard{
+
+
+    display: flex;
+    flex:1;
+    height: 10rem!important;
+    width: 15rem!important;
+    border-radius: 0.7rem;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    padding: 1rem;
+    margin-bottom: 30px;
+    box-shadow: 0px 13px 20px 0px hsl(256, 27%, 11%)!important;
+
+}
+.CompactCard:hover{
+    box-shadow: none !important;
+}
+
+.bar{
+    flex: 1;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.CircularProgressbar{
+    width: 6rem!important;
+    overflow: visible;
+}
+.CircularProgressbar-text{
+    color: white !important;
+}
+.CircularProgressbar-path{
+    stroke: white!important;
+ stroke-width: 12px !important;
+ filter: drop-shadow( 2px 4px 6px white);
+}
+
+.CircularProgressbar-trail{
+    display: none;
+}
+.bar>span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail{   flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.CircularProgressbar-text {
+    fill: white !important;
+  }
+
+.detail>span:nth-child(2){
+
+font-size: 28px;
+font-weight: bold;
+
+}
+
+.detail>span:nth-child(3){
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.expandedCard{
+    position: absolute;
+    width: 60%;
+    height: 70vh;
+    z-index: 100;
+    left: 260px;
+    border-radius: 1rem;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;;
+   
+}
+
+.expandedCard >span:nth-of-type(1){
+    text-shadow: 0px 0px 15px white;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+.expandedCard>span:nth-of-type(2){
+    font-size: 16px;
+    color: white;
+}
+
+.chartContainer{
+    width: 70%;
+}
+.apexcharts-toolbar svg {
+    fill: #ffffff!important;    
+}
+
+.apexcharts-toolbar svg {
+    color: #ffffff!important;
+}
+
+.apexcharts-menu{
+color: black!important;
+
+}
